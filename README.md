@@ -8,7 +8,7 @@ There are 5 categories: sport, tech, business, politics, entertainment <br>
 We are also given test set of size (735, 2), only 2 features: article_id and text, so we have to classify those texts. <br>
 
 # Method
-According to the assignment, I had to use LSA, which is simply getting the vector representations of text and doing Truncated SVD. Truncating SVD really helped to improve the accuracy, since we are picking only the most important part of the information. For classification, we have just used KNearestNeighbor(best hyperparameters were found using gridsearch), which gave a good accuracy of around 96%< on test set.
+According to the assignment, I had to use LSA, which is simply getting the vector representations of text and doing Truncated SVD. Truncating SVD really helped to improve the accuracy, since we are picking only the most important part of the information. For classification, we have just used KNearestNeighbor(best hyperparameters were found using gridsearch), which gave a good accuracy of around 96%< on the test set(both private and public).
 
 
 # Authors
